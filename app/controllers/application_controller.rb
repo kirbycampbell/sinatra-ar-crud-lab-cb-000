@@ -52,5 +52,9 @@ class ApplicationController < Sinatra::Base
     erb :delete
   end
 
+  get '/show' do
+    erb :show
+  end
+
 
 end
